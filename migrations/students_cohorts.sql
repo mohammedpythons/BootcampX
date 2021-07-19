@@ -20,4 +20,3 @@ CREATE TABLE students (
 );
 
 
-SELECT count(*) FROM students;
