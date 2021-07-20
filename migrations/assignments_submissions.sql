@@ -1,3 +1,5 @@
+DROP TABLE assignments, assignment_submissions CASCADE;
+
 CREATE TABLE assignments (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255),

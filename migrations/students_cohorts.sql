@@ -1,5 +1,4 @@
-DROP TABLE students;
-DROP TABLE cohorts;
+DROP TABLE cohorts, students CASCADE;
 
 CREATE TABLE cohorts (
   id SERIAL PRIMARY KEY NOT NULL,
